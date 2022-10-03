@@ -7,9 +7,6 @@ export function TrafficLight() {
 
     const [ color, setColor] = useState("");
    
-    const glow =[{
-      color: "white"
-    }]
 
   return (
 
@@ -50,20 +47,3 @@ export function TrafficLight() {
      </div>
    );
 }
-
-
-
-// const createGlow = () => {
-//   let updatedColor = color;
-//   updatedColor.push({
-//     color: "yellow"
-//   });
-//   setColor(updatedColor);
-// }
-
-// useEffect (() => {
-//     setColor([
-//         {
-//           glow: "yellow",
-//     }])
-// },[])
